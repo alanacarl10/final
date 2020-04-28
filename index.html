@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Alana's Kwiz!</title>
+<link href ="style.css" rel ="stylesheet">
+<script src="confetti.js"></script>
+
+<script src = "main.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+
+</head>
+
+
+<body>
+<h1>Can you answer 10 questions in five minutes??!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+
+<div id="count">Start</div>
+
+<p class = "questions"> 1. What does HTML stand for?</p>
+<input type = "radio" id = "mc" name = "question1" value = "HyperText Markup Language"> HyperText Markup Language<br>
+<input type = "radio" id = "mc" name = "question1" value = "Holistic Text Markup Language"> Holistic Text Markup Language<br>
+<input type = "radio" id = "mc" name = "question1" value = "Hypertext Markings Logistics"> Hypertext Markings Logistics<br>
+
+<p class = "questions"> 2. What does CSS stand for?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Complete Standard Sheet"> Complete Standard Sheet<br>
+<input type = "radio" id = "mc" name = "question2" value = "Cascading Style Sheets"> Cascading Style Sheets<br>
+<input type = "radio" id = "mc" name = "question2" value = "Complete Style Sheets"> Complete Style Sheets<br>
+
+<p class = "questions"> 3. JavaScript is a partner language of Java?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "true"> true<br>
+<input type = "radio" id = "mc" name = "question3" value = "false">false<br>
+
+<p class = "questions">  4.  How do you add  multiple files to git?</p>
+<input type = "radio" id = "mc" name = "question4" value = "git addition -A"> git addition -A<br>
+<input type = "radio" id = "mc" name = "question4" value = "git add ."> git add .<br>
+<input type = "radio" id = "mc" name = "question4" value = "git addition ."> git addition .<br>
+
+<p class = "questions">  5.  How do you commit files to git?</p>
+<input type = "radio" id = "mc" name = "question5" value = "git commit -m"> git commit -m<br>
+<input type = "radio" id = "mc" name = "question5" value = "git comm"> git comm<br>
+<input type = "radio" id = "mc" name = "question5" value = "git commit m"> git commit m<br>
+
+
+<p class = "questions">  6.  In which language would you find this command? [border: 10px solid black]</p>
+<input type = "radio" id = "mc" name = "question6" value = "Javascript">Javascript<br>
+<input type = "radio" id = "mc" name = "question6" value = "HTML"> HTML<br>
+<input type = "radio" id = "mc" name = "question6" value = "CSS"> CSS<br>
+
+<p class = "questions"> 7.  In which language would you find commands such as div or h1s? </p>
+<input type = "radio" id = "mc" name = "question7" value = "Javascript">Javascript<br>
+<input type = "radio" id = "mc" name = "question7" value = "HTML"> HTML<br>
+<input type = "radio" id = "mc" name = "question7" value = "CSS"> CSS<br>
+
+
+
+<p class = "questions"> 8.  What does CRUD stand for? </p>
+<input type = "radio" id = "mc" name = "question8" value = "Cruise, Ready, Upstream, Downstream">Cruise, Ready, Upstream, Downstream<br>
+<input type = "radio" id = "mc" name = "question8" value = "Create, Read, Upstream, Downstream"> Create, Read, Upstream, Downstream<br>
+<input type = "radio" id = "mc" name = "question8" value = "Create, Read, Update, Destroy"> Create, Read, Update, Destroy<br>
+
+
+<p class = "questions">9.  What  best describes an instance in Ruby? </p>
+<input type = "radio" id = "mc" name = "question9" value = "Ruby data type that holds an ordered collection of values">Ruby data type that holds an ordered collection of values<br>
+<input type = "radio" id = "mc" name = "question9" value = " a blueprint that defines important aspects of the object."> a blueprint that defines important aspects of the object<br>
+<input type = "radio" id = "mc" name = "question9" value = "an example of something that follows the blueprint of the class"> an example of something that follows the blueprint of the class<br>
+
+<p class = "questions"> 10.  What is a class in Ruby? </p>
+<input type = "radio" id = "mc" name = "question10" value = "Ruby data type that holds an ordered collection of values">Ruby data type that holds an ordered collection of values<br>
+<input type = "radio" id = "mc" name = "question10" value = "an example of something that follows the blueprint of the instance"> an example of something that follows the blueprint of the instance<br>
+<input type = "radio" id = "mc" name = "question10" value = "a blueprint that defines important aspects of the object.">a blueprint that defines important aspects of the object<br>
+
+
+</div>
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+
+</form>
+
+
+
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
+
+
+
