@@ -1,16 +1,16 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #test{
-  border: #000 1px solid; padding:10px 40 px 40px 40px;}
+  border: #000 1px solid; padding:10px 40  40px 40px;}
 
 
 #quiz {
 	margin-left: 10px;
-	background: #d2def2;
-	padding: 10px 20px 10px 20px;
-	width: 400px;
+	background:white;
+	padding: 10px 30px 40px 20px;
+	width: 600px;
 	border-radius: 20px;
 	float: left;
 

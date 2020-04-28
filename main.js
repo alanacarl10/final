@@ -65,7 +65,7 @@ function check(){
 		correct++;
 	}
 
-	if (question8 == "Create, Read, Update, Destroy") {
+	if (question8 == "Create, Read, Update, Delete") {
 		correct++;
 	}
 
@@ -80,16 +80,20 @@ function check(){
 	var messages = ["Great job!", "Not that bad!", "Not good, not good at all"];
 	var score;
 
-	if (correct == 0 && correct < 3) {
+	if (correct == 0) {
+		score = 2;
+	}
+
+	if (correct <= 5) {
 		score = 2;
 	}
 
 
-	if (correct > 3 && correct < 7) {
+	if (correct >= 5 && correct <= 7) {
 		score = 1;
 	}
 
-	if (correct < 8) {
+	if (correct >= 8) {
 		score = 0;
 	}
 
